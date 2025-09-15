@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KognisLearn - AI-Powered Flashcards</title>
+    <style>
+        :root {
+            --primary: #6366f1;  /* A modern indigo */
+            --primary-dark: #4f46e5;
+            --dark: #1f2937;     /* A dark gray */
+            --light: #f9fafb;    /* A off-white */
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Header & Navigation */
+        header {
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        /* Hero Section */
+        .hero {
+            padding: 6rem 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem auto;
+            color: #4b5563; /* gray-600 */
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: var(--primary-dark);
+        }
+        /* App Preview Section */
+        .app-preview {
+            background-color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        .mockup {
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .mockup-placeholder {
+            background: linear-gradient(135deg, #ddd6fe 0%, #c4b5fd 100%); /* purple subtle gradient */
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">KognisLearn</div>
+                <!-- Future Navigation Links can go here -->
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Master Any Subject.</h1>
+                <p>KognisLearn uses adaptive AI to create personalized flashcards that help you study smarter, not harder.</p>
+                <a href="#" class="cta-button">Get Early Access</a>
+            </div>
+        </section>
+
+        <section class="app-preview">
+            <div class="container">
+                <div class="mockup">
+                    <div class="mockup-placeholder">App Preview Mockup</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 KognisLearn. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
